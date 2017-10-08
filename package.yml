@@ -25,8 +25,8 @@ builddeps  :
     - pkgconfig(pyorbit-2)
     - pkgconfig(sm)
 setup      : |
-    %waf_configure --prefix=/usr
+    %waf_configure
 build      : |
     %waf_build
 install    : |
-    %waf_install --destdir=%installroot%
+    %waf_install
