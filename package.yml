@@ -1,9 +1,9 @@
 name       : gnome-python
 version    : 2.28.1
-release    : 3
+release    : 4
 source     :
     - https://download.gnome.org/sources/gnome-python/2.28/gnome-python-2.28.1.tar.bz2 : 759ce9344cbf89cf7f8449d945822a0c9f317a494f56787782a901e4119b96d8
-license    : LGPL-2.0
+license    : LGPL-2.0-only
 component  : programming.python
 summary    : Python bindings for a few GNOME Developer Platform libraries.
 description: |
